@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyFAQs"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Frequently Asked Questions"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.What is Educile?"
+            android:textSize="20dp"
+            android:background="@color/LightGrey"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ans. It is a platform where you can book classes for any chapter according to your need.
+"
+            android:textSize="19dp"
+           />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Are the classes online or offline?"
+            android:textSize="20dp"
+            android:background="@color/LightGrey"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ans. Educile believes nothing can replace face to face human interaction. Basically classes are OFFLINE.
+"
+            android:textSize="19dp"
+           />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. I find it difficult to book the class, Can anyone help me?"
+        android:textSize="20dp"
+        android:background="@color/LightGrey"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ans. Call us @ 7002825163 or 7002820691. We will help you.
+"
+             android:textSize="19dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4.This is my first time in this app. How do i select the best tutor? "
+            android:textSize="20dp"
+            android:background="@color/LightGrey"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ans.  You just do the booking, we will allot you the best tutor according to your booking. If you are not satisfied with the class, call us, we will REFUND you fully. Though it never happened. Educile maintains its quality of tutors.
+"
+            android:textSize="19dp"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. Do I pay fees for one chapter or one class?"
+            android:textSize="20dp"
+            android:background="@color/LightGrey"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ans. The fee is for one class as one chapter may take more than one classes depending on chapter length and details.
+"
+            android:textSize="19dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6. Can I study with someone if I want to?"
+            android:textSize="20dp"
+            android:background="@color/LightGrey"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ans. Yes, you can study with your friends and even your fees will be reduced if you do so.
+"
+            android:textSize="19dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7. Do I need to pay after every class or after month?"
+            android:textSize="20dp"
+            android:background="@color/LightGrey"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ans. After every class, as its upto the student as how many classes he wishes to take.
+"
+            android:textSize="19dp"
+           />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8. Can i change the tutor if i am not satisfied with the tutor?"
+            android:textSize="20dp"
+            android:background="@color/LightGrey"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ans. Yes you can, just mention *tutor change* in additional comment.
+"
+            android:textSize="19dp"
+           />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9. Can I continue the classes with the same tutor?"
+            android:textSize="20dp"
+            android:background="@color/LightGrey"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ans. Yes, you can.
+"
+            android:textSize="19dp"
+           />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10. I have studied the chapter. I just need to solve numerical related to it or i need to understand few topics. Is this option available?"
+            android:textSize="20dp"
+            android:background="@color/LightGrey"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ans. Yes, just book the class and fill up your requirements in the *additional comments* section. We will look after the rest.
+"
+            android:textSize="19dp"
+           />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11. Is there any limit on number of classes i can take?"
+            android:textSize="20dp"
+            android:background="@color/LightGrey"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ans. No
+"
+            android:textSize="19dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12.When and where the classes will take place? "
+            android:textSize="20dp"
+            android:background="@color/LightGrey"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ans.Timing and date will be decided by you, and the place will be your home. "
+            android:textSize="19dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13. I need to solve some numerical of a question paper which includes all the chapters. How do I do that?"
+            android:textSize="20dp"
+            android:background="@color/LightGrey"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ans. Just book any chapter and mention your concern in additional comments.
+"
+            android:textSize="19dp"
+           />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

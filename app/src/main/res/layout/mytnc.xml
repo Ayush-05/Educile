@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyTnC"
+    android:padding="5dp">
+    
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+
+           android:text="Terms and Conditions
+"
+           android:gravity="center"
+           android:textSize="25dp"
+           android:textStyle="bold"/>
+
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="20dp"
+           android:text="1.No class shall be done without booking, as this may result in the termination of student and strict action against the tutors."/>
+
+
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="20dp"
+           android:text="
+2.Educile doesn't encourages any sort of relationship between student and tutor outside class hours"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="20dp"
+           android:text="
+3.Payment needs to be done after every class to the tutor itself."/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="20dp"
+           android:text="
+4.Class will be of two hours atleast. And with student's and tutors mutual understanding class hour can be extended. No extra payment for extended time."/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="20dp"
+           android:text="
+5.Along with student, there must be atleast one guardian present in the house during class hours."/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="20dp"
+           android:text="
+6.Student can call anytime to Educile (7002825163) for class related issues or any doubt."/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="20dp"
+           android:text="
+7.Student can call their respective tutors for doubt clearing outside class hours."/>
+
+
+
+   </LinearLayout>
+
+
+</ScrollView>

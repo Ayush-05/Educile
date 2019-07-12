@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="myeducile.project.ayush.tutor">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ww9"
+        android:label="Educile Tutors"
+        android:roundIcon="@drawable/ww9"
+        android:supportsRtl="true"
+        android:theme="@style/CustomActivityTheme">
+        <activity
+            android:name=".WelcomeScreen"
+            android:theme="@style/NoActionBar.">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Main4Activity" />
+        <activity
+            android:name=".Mysecondphy"
+            android:parentActivityName=".Myfirstpage" />
+        <activity
+            android:name=".MyOtpVerification"
+            android:parentActivityName=".MyLogin" />
+        <activity
+            android:name=".MyLogin"
+            android:parentActivityName=".Myfirstpage" />
+        <activity
+            android:name=".Mysecondche"
+            android:parentActivityName=".Myfirstpage" />
+        <activity
+            android:name=".Mysecondmath"
+            android:parentActivityName=".Myfirstpage" />
+        <activity
+            android:name=".Mysecondbio"
+            android:parentActivityName=".Myfirstpage" />
+        <activity android:name=".MyFinalPage" />
+        <activity android:name=".MyConfirmedPage" />
+        <activity android:name=".MyRegistration" />
+        <activity android:name=".Myfirstpage" />
+        <activity android:name=".MyContactUs" />
+        <activity android:name=".Mysecondcomp" />
+        <activity android:name=".MyOnCall" />
+        <activity android:name=".MyFAQs" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/NoActionBar." />
+        <activity android:name=".JuniorTeachers" />
+        <activity android:name=".MyTnC" />
+        <activity android:name=".MyBookings"></activity>
+    </application>
+
+</manifest>

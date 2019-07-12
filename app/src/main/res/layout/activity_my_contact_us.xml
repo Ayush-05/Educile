@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyContactUs">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/cus"
+        android:layout_marginTop="91dp"
+        android:text="+91 7002825163"
+        android:textSize="20dp"
+        android:textColor="@android:color/holo_blue_bright"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="162dp"
+        android:id="@+id/fb"
+        android:src="@drawable/fb" />
+
+    <ImageView
+        android:id="@+id/insta"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/fb"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/insta" />
+
+    <ImageView
+        android:id="@+id/youtube"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/fb"
+        android:layout_marginEnd="82dp"
+        android:src="@drawable/youtube" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="127dp"
+        android:text="Mail us at:educiletutors@gmail.com" />
+
+</RelativeLayout>

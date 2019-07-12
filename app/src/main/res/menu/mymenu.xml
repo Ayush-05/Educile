@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    
+
+    <item android:id="@+id/contact"
+        android:title="Contact Us"
+        />
+
+    <item android:id="@+id/Call"
+        android:title="Booking on Call"
+        />
+
+    <item android:id="@+id/About_Educile1"
+        android:title="Terms and conditions"
+        />
+
+
+
+    <item android:id="@+id/faqs"
+        android:title="FAQ's"
+        />
+
+    <item android:id="@+id/mybookings"
+        android:title="MyBookings"
+        />
+
+
+
+</menu>

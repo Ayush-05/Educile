@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyLogin"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="5dp"
+    android:background="#DCDCDC">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="60dp"
+        android:text="Login Form"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:layout_marginTop="5dp"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="33dp"
+        android:background="#A9A9A9"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:background="#A9A9A9"
+        android:text="Register" />
+
+</LinearLayout>
